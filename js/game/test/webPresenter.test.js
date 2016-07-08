@@ -1,0 +1,2 @@
+"use strict";var expect=require("chai").expect,webPresenter=require("../webPresenter.js").webPresenter,gameState=require("../gameState.js").gameState;describe("webPresenter",function(){beforeEach(function(){state=new gameState,presenter=new webPresenter(state)}),it("will setup the board",function(){presenter.setupBoard(3),expect(state.boardSize).to.equal(3)})});
+//# sourceMappingURL=../../source-maps/game/test/webPresenter.test.js.map
